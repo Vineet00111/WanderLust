@@ -1,0 +1,138 @@
+body {
+   font-family: "Plus Jakarta Sans", serif !important;
+   display:flex;
+   flex-direction:column;
+   min-height: 100vh;
+}
+
+.container {
+    flex:1 ;
+}
+
+/* Navbar */
+.navbar{
+    height: 5rem ;
+    background-color: white; 
+}
+
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color:#222222 !important;
+}
+
+/* Footer */
+.f-info-links a{
+    text-decoration:none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+}
+
+.f-info-links, .f-info-brand{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.f-info-socials{
+    width:100%;  
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.f-info{
+    text-align:center;
+    height:8rem;
+    background-color: #ebebeb;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    /* align-items:space-evenly; */
+} 
+
+/*Card*/
+.listing-card {
+    border:none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding:0 !important;
+}
+
+.card-para {
+    margin-bottom: 0.4rem !important;
+}
+
+.listing-link {
+    text-decoration: none;
+    color: #222222;
+}
+
+.card-img-overlay:hover {
+      opacity:0.2;
+      background-color: white; 
+}
+
+.details-btn {
+    background-color: rgb(6, 108, 142) !important;
+}
+
+/* New Page*/      /*Edit Page  */
+.add-btn, .edit-btn {
+    background-color:#fe424d !important;
+    border:none !important;
+}
+
+/*Show Page*/
+.para {
+    font-weight:450;
+    /* margin-bottom: 0.4rem; */
+}
+
+.para1 {
+    margin-bottom: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.btn-grp {
+    display:flex;
+    flex-wrap:wrap;
+}
+.del-btn {
+    margin-left: 3rem !important;
+    background-color:#e40e1d !important;
+    border:none !important;
+}
+
+
+/* Error Page */
+.bi {
+    height:4rem !important;
+    width:6rem !important;
+}
+
+ 
+/* Map */
+#map { 
+    height: 400px; 
+    width: 100%; 
+    margin-bottom: 2rem;
+}
+
